@@ -1,9 +1,7 @@
 # UI5 Automation Framework
-End-to-end test framework for UI5 applications. It uses UI5 structure and renders simplicity and ease of use for UI5 Automation.
-
 <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/vyper.gif" width="48">
 
-UI5 Automation Framework is an end-to-end test framework for SAP UI5 and Open UI5 applications. It uses UI5 structure and renders simplicity and ease of use for UI5 Automation.
+End-to-end test framework for UI5 applications. It uses UI5 structure and renders simplicity and ease of use for UI5 Automation.
 
 The UI5 Automation Framework comprises of two components-
 
