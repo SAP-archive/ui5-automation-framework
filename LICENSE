@@ -1,3 +1,4 @@
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -186,7 +187,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright (c) 2015 SAP SE or an SAP affiliate company. All rights reserved
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -199,3 +200,106 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+------------------------------------------------------------------------------
+APIs
+
+This project may include APIs to SAP or third party products or services. The use of these APIs, products and services may be subject to additional agreements. In no event shall the application of the Apache Software License, v.2 to this project grant any rights in or to these APIs, products or services that would alter, expand, be inconsistent with, or supersede any terms of these additional agreements. “API” means application programming interfaces, as well as their respective specifications and implementing code that allows other software products to communicate with or call on SAP or third party products or services (for example, SAP Enterprise Services, BAPIs, Idocs, RFCs and ABAP calls or other user exits) and may be made available through SAP or third party products, SDKs, documentation or other media. 
+
+------------------------------------------------------------------------------
+SUBCOMPONENTS
+
+This project includes the following subcomponents that are subject to separate license terms. 
+Your use of these subcomponents is subject to the separate license terms applicable to
+each subcomponent.
+ 
+Component: [protractor@5.1.1]
+Licensor: [angularcore]
+Website: [https://github.com/angular/protractor ]
+License: [MIT]
+Additional Notices: [The MIT License Copyright (c) 2010-2017 Google, Inc.] 
+
+Component: [org.json.simple]
+Licensor: [The JSON License]
+Website: [https://github.com/douglascrockford/JSON-java ]
+License: [JSON]
+Additional Notices: [The JSON License Copyright (c) 2002 JSON.org] 
+
+Component: [extentreports@2.41.1]
+Licensor: [AventStack LLC]
+Website: [http://extentreports.com ]
+License: [AventStack LLC]
+Additional Notices: [Copyright (c) 2016-2017 AventStack LLC.] 
+
+------------------------------------------------------------------------------
+The MIT License
+
+Copyright (c) 2010-2017 Google, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+============================================================================
+
+AventStack LLC
+
+Copyright (c) 2016-2017 AventStack LLC.
+All rights reserved.
+
+This, the ExtentReports Java Software License Agreement (called the “Agreement”), 
+is a legal agreement between you, either an individual or an organization or other 
+legal entity, (called “Licensee”) and AventStack. Your use of ExtentReports Software,
+any updates received to it, or any related documentation (herein collectively referred 
+to as “Program”) is subject to your acceptance of the terms and conditions of 
+this Agreement. The term “Program” means the original program and all whole or partial
+copies of it, including portions merged into other programs. AventStack grants you a 
+nonexclusive license for the Program as specified herein. You agree to ensure that 
+anyone who uses the Program (accessed either locally or remotely) does so only for 
+your authorized use and complies with the terms of this Agreement. AventStack will not 
+charge you for the rights granted to you under this license. The Program is owned by 
+AventStack and is copyrighted and licensed, not sold. AventStack will only license 
+the Program to you if you first accept the terms of this agreement.
+
+
+============================================================================
+
+The JSON License
+
+Copyright (c) 2002 JSON.org
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+The Software shall be used for Good, not Evil.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+------------------------------------------------------------------------------
