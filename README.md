@@ -7,8 +7,8 @@ UI5 Automation Framework is an end-to-end test framework for SAP UI5 and Open UI
 
 The UI5 Automation Framework comprises of two components-
 
-* <img src="https://github.com/raw/SAP/ui5-automation-framework/master/images/chrome.png" width="25"> UI5 Automation Designer-chrome extension to design the automation scripts
-* <img src="https://github.com/raw/SAP/ui5-automation-framework/master/images/npm.png" width="25"> UI5 Automation Runner- to run the generated scripts
+* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/chrome.png" width="25"> UI5 Automation Designer-chrome extension to design the automation scripts
+* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/npm.png" width="25"> UI5 Automation Runner- to run the generated scripts
 
 
 How to use UI5 Automation Designer - <a href="https://youtube.com">See how</a>
@@ -18,8 +18,8 @@ How to use UI5 Automation Runner - <a href="https://youtube.com">See how</a>
 ----
 ### Requirements
 It requires
-* <img src="https://github.com/raw/SAP/ui5-automation-framework/master/images/nodejs.png" width="35">  [NodeJS](https://nodejs.org/)
-* <img src="https://github.com/raw/SAP/ui5-automation-framework/master/images/java.png" width="35">  [Java](https://java.com/en/)
+* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/nodejs.png" width="35">  [NodeJS](https://nodejs.org/)
+* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/java.png" width="35">  [Java](https://java.com/en/)
 ---
 ### Download and Installation
 __Add UI5 Automation Designer:__
