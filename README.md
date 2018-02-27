@@ -31,13 +31,13 @@ __Install UI5 Automation Runner__
     ```
 * Use npm to install
     ```sh
-    $  npm install UI5-Automation-Runner
+    $  npm install --save  https://github.com/SAP/ui5-automation-framework
     ```
 * Run the sample UI5-Example.
     * Run the below command
     ```sh
-    $ cd <path-to-created-folder>/node_modules/UI5-Automation-Runner/UI5Example
-    $ node <path-to-created-folder>/node_modules/UI5-Automation-Runner/protractor/bin/protractor conf.js
+    $ cd <path-to-created-folder>/node_modules/ui5-automation-framework/UI5Example
+    $ node <path-to-created-folder>/node_modules/ui5-automation-framework/protractor/bin/protractor conf.js
     ```
     * If the browser launches and executes the sample script, Hurray!!!! the set up is succesfully complete
 ---
