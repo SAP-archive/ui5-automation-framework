@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "End-to-end test framework for UI5 applications. It uses UI5 structure and renders simplicity and ease of use for UI5 Automation",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "postinstall": "cd protractor && npm install && node bin/webdriver-manager update && cd ../coverage && npm install"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SAP/ui5-automation-framework.git"
