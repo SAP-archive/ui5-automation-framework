@@ -1,0 +1,23 @@
+{
+  "name": "coverage",
+  "version": "1.0.0",
+  "description": "End to End Test Coverage",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "Vyper",
+    "Coverage"
+  ],
+  "author": "Navlur,Asif Iqbal",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "https": "^1.0.0",
+    "istanbul": "^0.4.5",
+    "pem": "^1.12.3",
+	"fast-csv":"^2.4.1"
+  }
+}

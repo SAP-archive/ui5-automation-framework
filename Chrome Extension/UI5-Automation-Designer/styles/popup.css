@@ -1,0 +1,89 @@
+/*!
+* SAP
+* (c) Copyright 2015 SAP SE or an SAP affiliate company.
+* Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  font-family: Consolas, Lucida Console, monospace;
+  font-size: 12px;
+  height: 100%;
+  line-height: 14px;
+  flex-grow: 1;
+}
+body[os='linux'] {
+  font-family: dejavu sans mono, monospace;
+  font-size: 11px;
+}
+body[os='mac'] {
+  font-family: Menlo, monospace;
+  font-size: 11px;
+}
+ol,
+ul {
+  list-style: none;
+}
+label {
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+[hidden] {
+  display: none;
+}
+popup {
+  color: #333;
+  display: inline-block;
+  padding: 5px 10px 5px 6px;
+}
+popup product {
+  display: block;
+  height: 16px;
+  line-height: 16px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+popup library {
+  display: inline-block;
+  font-weight: bold;
+}
+popup buildtime {
+  display: inline-block;
+}
+popup logo {
+  background-image: url("/images/icon-38.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 16px;
+  display: inline-block;
+  height: 16px;
+  width: 22px;
+  vertical-align: bottom;
+}
+popup links {
+  display: block;
+  padding-left: 22px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+popup links a,
+popup links a:visited {
+  color: #0000ee;
+  display: block;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+popup links a:hover {
+  text-decoration: none;
+}

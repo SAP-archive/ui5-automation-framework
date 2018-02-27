@@ -1,0 +1,11 @@
++++++++++++++++++++++Vyper Test Coverage +++++++++++++++++++++++++++++++++++++
+
+Protractor
+	1.protractor/built/launcher.js  (Dependant on 4)
+	2.protractor/built/onPrepare.js (Dependant on 4)
+
+Reverse Proxy
+	3.coverage/index.js  (Dependant on 4)
+	4.coverage/coverageHelper.js
+	5.coverage/OpenSSL  
+

@@ -1,0 +1,17 @@
+{
+  
+  "author": {
+    "name": "Asif Iqbal Navalur",
+    "email": "asif.iqbal.navalur@sap.com"
+  },
+ 
+  "description": "UI5 Automation Framework is an end-to-end test framework for SAP UI5 and Open UI5 applications",
+  "license": "ISC",
+ 
+  "name": "ui5-automation-framework",
+ 
+  "version": "1.0.0",
+  "scripts": {
+  "postinstall": "cd protractor && npm install && node bin/webdriver-manager update && cd ../coverage && npm install"
+}
+}

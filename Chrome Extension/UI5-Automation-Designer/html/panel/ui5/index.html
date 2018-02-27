@@ -1,0 +1,169 @@
+<!--
+- SAP
+- (c) Copyright 2015 SAP SE or an SAP affiliate company.
+- Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+-->
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>UI5 Inspector</title>
+        <link rel="stylesheet" href="/styles/main.css"/>
+		 <link rel="stylesheet" href="/scripts/content/jquery-ui.css"/>
+    </head>
+    <body>
+        <tabbar id="ui5-tabbar">
+            <tabs>
+                <tab id="control-tree-tab" selected>Control Inspector</tab>
+                <tab id="app-info-tab">Application Information</tab>
+            </tabs>
+            <contents>
+
+                <!-- UI5 Tab /start-->
+                <content for="control-tree-tab">
+                    <splitter id="horizontal-splitter">
+                        <!-- SplitContainer left side /start-->
+                        <start>
+                            <control-tree id="control-tree" class='dummyClassForContextMenu'></control-tree>
+                        </start>
+                        <!-- SplitContainer left side /ends-->
+
+                        <!-- SplitContainer right side /start-->
+                        <end>
+                            <!-- Control tree tabbar /start-->
+                            <tabbar id="control-tree-tabbar">
+                                <tabs>
+                                    <tab id="tab-properties" selected>Properties</tab>
+                                    <tab id="tab-bindings">Bindings
+                                        <count></count>
+                                    </tab>
+									<!-- Customization - PoT -->
+                                 <!--<tab id="tab-automation">Automation</tab> Changed by Sagar
+								 <tab id="tab-events">Events</tab> -->
+                                 <!-- End of Customization - PoT -->
+                                </tabs>
+                                <contents>
+                                    <content for="tab-properties">
+                                        <data-view id="control-properties"></data-view>
+                                    </content>
+                                    <content for="tab-bindings">
+                                        <splitter id="control-bindings-splitter" orientation="vertical">
+                                            <start>
+                                                <data-view id="control-bindings-left"></data-view>
+                                            </start>
+                                            <end>
+                                                <data-view id="control-bindings-right"></data-view>
+                                            </end>
+                                        </splitter>
+                                    </content>
+									<!-- Customization - PoT -->
+                                <content for="tab-automation"> Changed by Sagar
+                                	<data-view id="control-automation"></data-view>
+                                </content> 
+								<content for="tab-events">
+                                	<data-view id="control-event"></div>
+                                </content> 
+                                 <!-- End of Customization - PoT -->
+                                </contents>
+                            </tabbar>
+                            <!-- Control tree tabbar /end-->
+                        </end>
+                        <!-- SplitContainer right side /ends-->
+                    </splitter>
+                </content>
+                <!-- UI5 Tab /ends-->
+
+                <!-- Application information /start-->
+                <content for="app-info-tab">
+                    <data-view id="app-info"></data-view>
+                </content>
+                <!-- Application information /ends-->
+            </contents>
+        </tabbar>
+
+        <!-- No UI5 dialog /start-->
+        <overlay id="supportability">
+            <section no-ui5-version>
+                <h1>There is no OpenUI5/SAPUI5 found on this page</h1>
+
+                <p>
+                    What is OpenUI5?<br/>
+                    Build enterprise-ready web applications, responsive to all devices and running on the browser of
+                    your choice
+                </p>
+
+                <p>
+                    Feature-Rich UI Controls <br/>
+                    Powerful Development Concepts <br/>
+                    Consistent User Experience <br/>
+                </p>
+
+                <p>
+                    Read more at <a href="http://openui5.org/" target="_openui5">http://openui5.org/</a>
+                </p>
+            </section>
+
+            <section unsupported-version>
+                <h1>Unsupported version</h1>
+
+                <p>This OpenUI5/SAPUI5 version is not supported by UI5 Inspector.</p>
+
+                <p>
+                    What can I do? <br/>
+                    Update to newer OpenUI5/SAPUI5 version or use Ctrl+Alt+Shift+S to launch the SAPUI5 Diagnostics tool
+                    for debugging.
+                </p>
+            </section>
+        </overlay>
+        <!-- No UI5 dialog /end-->
+<!--
+	  POT - Customization
+	  Context Menu For Panel-->
+	
+	  
+	   <nav id="context-menu" class="context-menu">
+         <ul>
+            <li class="context-menu__item" >
+               <a href="#" class="context-menu__link" data-action="Action"><i class="fa fa-eye"></i>UI5-Action</a>
+            
+            </li>
+			<hr>
+			 <li  class="context-menu__item" >
+                     <a href='#'  class="context-menu__link" data-action="Value"> UI5-Set Value
+                     </a>
+                  </li>
+                  <li class="context-menu__item" >
+                     <a href='#'  class="context-menu__link" data-action="Click"> UI5-Click </a>
+                  </li>
+			 <!-- <li class="context-menu__item" data-role="dropdown" id='sub'>
+               <a href="#" class="context-menu__link" data-action="Object"><i class="fa fa-abc"></i> Copy UI5-Object</a>
+			    <ul>
+                  <li  class="context-menu__item" >
+                     <a href='#'  class="context-menu__link" data-action="Value"> Set Value
+                     </a>
+                  </li>
+                  <li class="context-menu__item" >
+                     <a href='#'  class="context-menu__link" data-action="Click"> Click </a>
+                  </li>
+				 
+               </ul>
+            </li> -->
+			<hr>
+            <li class="context-menu__item">
+               <a href="#" class="context-menu__link" data-action="Assert"><i class="fa fa-edit"></i>UI5-Assert</a>
+            </li>
+	
+         </ul>
+      </nav>
+      <!--Context Menu For Panel/ end -->
+		
+        <!-- Scripts -->
+		<script src="../../../scripts/content/jquery-1.12.0.js"></script>
+      
+	    <script src="../../../scripts/content/jquery-ui.js"></script>
+		 <script src="../../../scripts/content/jquery.validate.min.js"></script>
+
+        <script src="/scripts/devtools/panel/ui5/main.js"></script>
+		<script src="/scripts/devtools/panel/ui5/contextMenu.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+{
+   "background": {
+      "persistence": false,
+      "scripts": [ "/scripts/background/main.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "/scripts/content/jquery-1.12.0.js","/scripts/content/jquery-ui.js","/scripts/content/ace.js","/scripts/content/jquery.validate.min.js","/scripts/content/detectUI5.js", "/scripts/content/Github.js"],
+	  "css":["/scripts/content/jquery-ui.css"],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "default-src 'self'; style-src 'unsafe-inline';",
+   "description": "With Vyper, you can easily automate debug and support your OpenUI5 or SAPUI5-based apps. [Vyper for UI5: 0.0.1]",
+   "devtools_page": "/html/devtools/index.html",
+   "icons": {
+      "128": "/images/icon-128.png",
+      "16": "/images/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm7mj/sitL+pIrRLHIQJ912twyAxegmtJCkL0wSJIkAAHXdoO369/hUhW0AsZ1ZVruWMWmbYEAmcrPIhyYMcOn9OwoS+zLWz5Kwy1VrQwwPCFxIeEXy9V+cKg1Q77Kp3ajsEIk+ofOeLrQ4trjPVlcCEGucLOm7t1ZmQnJf20xfNZFJCBQbUHPwAVFMQoBZymN0CjF0FTTMnLSJXBX0rTShoMxzeRLZ6aD6Nmyky0J93TZMydNIfV5Rz69t1hIZpezu0okGfxoAJh/IbGaF377IMD9PVYxGOBSs9GuQFAN+NmCi9ebVIRdUS1lgkWb0lvBQnbuwwhLGrXwV+iawhwVwIDAQAB",
+   "manifest_version": 2,
+   "name": "Vyper for UI5",
+   "page_action": {
+      "default_icon": {
+         "19": "/images/icon-19.png",
+         "38": "/images/icon_a42.png"
+      },
+      "default_popup": "/html/popup/index.html"
+   },
+   "permissions": [ "tabs", "contextMenus", "debugger",
+        "history",
+        "management",
+        "http://*/*",
+        "https://*/*", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1",
+  // "version_name": "0.1",
+
+   "web_accessible_resources": [ "/scripts/injected/*.js","/html/popup/previewWindow.html","/scripts/content/*.js","/scripts/content/*.css","/scripts/content/images/*.png","/images/*","/scripts/content/jquery-1.12.0.js","/scripts/content/jquery-ui.js","/scripts/content/jquery-ui.css", "/vendor/ToolsAPI.js" ]
+}

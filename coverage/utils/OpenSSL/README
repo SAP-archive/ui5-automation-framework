@@ -1,0 +1,43 @@
+OpenSSL 1.0.2j
+--------------
+
+Date: 2016-09-26
+
+Flavour: Static (x86_64)
+
+Built from source
+
+OpenSSL FIPS 2.0.13
+
+
+--- Tests ---
+
+...
+...
+...
+ALL OCSP TESTS SUCCESSFUL
+Test X509v3_check_*
+../util/shlib_wrap.sh ./v3nametest
+../util/shlib_wrap.sh ./heartbeat_test
+Test constant time utilites
+../util/shlib_wrap.sh ./constant_time_test
+Testing constant time operations...
+ok (ran 1908 tests)
+test_verify_extra
+../util/shlib_wrap.sh ./verify_extra_test
+PASS
+make[1]: Leaving directory `/src/openssl-1.0.2j/test'
+OPENSSL_CONF=apps/openssl.cnf util/opensslwrap.sh version -a
+OpenSSL 1.0.2j-fips  26 Sep 2016
+built on: reproducible build, date unspecified
+platform: mingw64
+options:  bn(64,64) rc4(16x,int) des(idx,cisc,2,long) idea(int) blowfish(idx) 
+compiler: /mingw/bin/gcc.exe -I. -I.. -I../include  -DZLIB -DOPENSSL_THREADS 
+-D_MT -DDSO_WIN32 -DOPENSSL_SSL_CLIENT_ENGINE_AUTO=capi -DOPENSSL_CAPIENG_DIALOG 
+-DWINVER=0x0501 -D_WIN32_WINNT=0x0501 -D_WIN32_IE=0x0501 -DL_ENDIAN -Wall 
+-DWIN32_LEAN_AND_MEAN -DUNICODE -D_UNICODE -O2 -pipe -mms-bitfields -fno-builtin
+-march=core2 -mtune=core2 -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5
+-DOPENSSL_BN_ASM_GF2m -I/mingw/include -DRC4_ASM -DSHA1_ASM -DSHA256_ASM 
+-DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM 
+-DGHASH_ASM -DECP_NISTZ256_ASM
+OPENSSLDIR: "C:/OpenSSL"
