@@ -21,7 +21,9 @@ It requires
 ---
 ### Download and Installation
 __Add UI5 Automation Designer:__
-* Add  [UI5 Automation Designer](https://chrome.google.com/webstore/detail/ui5-inspector/) extension to chrome
+* Visit [chrome://extensions/](chrome://extensions/) in your chrome browser.
+* Ensure that the __Developer mode__ checkbox in the top right-hand corner is checked. 
+* drag and drop the folder from {path-to-created-folder}/node_modules/ui5-automation-framework to the [chrome://extension](chrome://extensions/) page
 
 __Install UI5 Automation Runner__
 
@@ -39,7 +41,13 @@ __Install UI5 Automation Runner__
     $ cd <path-to-created-folder>/node_modules/ui5-automation-framework/UI5Example
     $ node <path-to-created-folder>/node_modules/ui5-automation-framework/protractor/bin/protractor conf.js
     ```
-    * If the browser launches and executes the sample script, Hurray!!!! the set up is succesfully complete
+    * If the browser launches and executes the sample script, Hurray!!!! the set up is succesfully complete.
+---
+__Add UI5 Automation Designer:__
+* Go to [chrome://extensions/](chrome://extensions/) in your chrome browser.
+* Ensure that the __Developer mode__ checkbox on the top right corner is checked. 
+* Drag and drop the folder from *{path-to-created-folder}/node_modules/ui5-automation-framework/Chrome Extension/UI5-Automation-Designer* to the [chrome://extension](chrome://extensions/) page.
+* Look for the <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/vyper.gif" width="25">  on the right corner of the browser to ensure the chrome extension is added successfully.
 ---
 ### Known Issues
 ---
