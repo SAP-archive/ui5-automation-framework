@@ -20,7 +20,7 @@ It requires
 * <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/java.png" width="35">  [Java](https://java.com/en/)
 ---
 ### Download and Installation
-__Install UI5 Automation Designer:__
+__Install UI5 Automation Designer__
 * Go to [chrome://extensions/](chrome://extensions/) in your chrome browser.
 * Ensure that the __Developer mode__ checkbox on the top right corner is checked. 
 * Drag and drop the folder from *{path-to-created-folder}/node_modules/ui5-automation-framework/Chrome Extension/UI5-Automation-Designer* to the [chrome://extension](chrome://extensions/) page.
