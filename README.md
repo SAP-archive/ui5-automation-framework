@@ -6,7 +6,7 @@ End-to-end test framework for UI5 applications. It uses UI5 structure and render
 The UI5 Automation Framework comprises of two components-
 
 * <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/chrome.png" width="25"> UI5 Automation Designer-chrome extension to design the automation scripts
-* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/npm.png" width="25"> UI5 Automation Runner- to run the generated scripts
+* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/npm.png" width="25"> UI5 Automation Runner- to run the automation scripts
 
 
 How to use UI5 Automation Designer - <a href="https://youtube.com">See how</a>
