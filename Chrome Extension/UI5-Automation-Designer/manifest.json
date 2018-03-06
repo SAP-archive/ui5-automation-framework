@@ -9,7 +9,7 @@
       "matches": [ "\u003Call_urls>" ]
    } ],
    "content_security_policy": "default-src 'self'; style-src 'unsafe-inline';",
-   "description": "With Vyper, you can easily automate debug and support your OpenUI5 or SAPUI5-based apps. [Vyper for UI5: 0.0.1]",
+   "description": "With UI5 Automation Designer, you can easily automate debug and support your OpenUI5 or SAPUI5-based apps. [UI5 Automation Designer: 0.0.1]",
    "devtools_page": "/html/devtools/index.html",
    "icons": {
       "128": "/images/icon-128.png",
@@ -17,7 +17,7 @@
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm7mj/sitL+pIrRLHIQJ912twyAxegmtJCkL0wSJIkAAHXdoO369/hUhW0AsZ1ZVruWMWmbYEAmcrPIhyYMcOn9OwoS+zLWz5Kwy1VrQwwPCFxIeEXy9V+cKg1Q77Kp3ajsEIk+ofOeLrQ4trjPVlcCEGucLOm7t1ZmQnJf20xfNZFJCBQbUHPwAVFMQoBZymN0CjF0FTTMnLSJXBX0rTShoMxzeRLZ6aD6Nmyky0J93TZMydNIfV5Rz69t1hIZpezu0okGfxoAJh/IbGaF377IMD9PVYxGOBSs9GuQFAN+NmCi9ebVIRdUS1lgkWb0lvBQnbuwwhLGrXwV+iawhwVwIDAQAB",
    "manifest_version": 2,
-   "name": "Vyper for UI5",
+   "name": "UI5 Automation Designer",
    "page_action": {
       "default_icon": {
          "19": "/images/icon-19.png",
