@@ -12,16 +12,16 @@
    "description": "With UI5 Automation Designer, you can easily automate debug and support your OpenUI5 or SAPUI5-based apps. [UI5 Automation Designer: 0.0.1]",
    "devtools_page": "/html/devtools/index.html",
    "icons": {
-      "128": "/images/icon-128.png",
-      "16": "/images/icon-16.png"
+      "128": "/images/vyper1.gif",
+      "16": "/images/vyper1.gif"
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm7mj/sitL+pIrRLHIQJ912twyAxegmtJCkL0wSJIkAAHXdoO369/hUhW0AsZ1ZVruWMWmbYEAmcrPIhyYMcOn9OwoS+zLWz5Kwy1VrQwwPCFxIeEXy9V+cKg1Q77Kp3ajsEIk+ofOeLrQ4trjPVlcCEGucLOm7t1ZmQnJf20xfNZFJCBQbUHPwAVFMQoBZymN0CjF0FTTMnLSJXBX0rTShoMxzeRLZ6aD6Nmyky0J93TZMydNIfV5Rz69t1hIZpezu0okGfxoAJh/IbGaF377IMD9PVYxGOBSs9GuQFAN+NmCi9ebVIRdUS1lgkWb0lvBQnbuwwhLGrXwV+iawhwVwIDAQAB",
    "manifest_version": 2,
    "name": "UI5 Automation Designer",
    "page_action": {
       "default_icon": {
-         "19": "/images/icon-19.png",
-         "38": "/images/icon_a42.png"
+         "19": "/images/vyper1.gif",
+         "38": "/images/vyper1.gif"
       },
       "default_popup": "/html/popup/index.html"
    },
