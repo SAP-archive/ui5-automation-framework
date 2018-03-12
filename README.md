@@ -9,9 +9,9 @@ The UI5 Automation Framework comprises of two components-
 * <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/npm.png" width="25"> UI5 Automation Runner- to run the automation scripts
 
 
-How to use UI5 Automation Designer - <a href="https://youtu.be/zieV4pSgIrQ">See how</a>
+How to use UI5 Automation Designer - <a href="https://youtu.be/jbKMk1Vweb4">See how</a>
 
-How to use UI5 Automation Runner - <a href="https://youtube.com">See how</a>
+How to use UI5 Automation Runner - <a href="https://youtu.be/vaorqlDUqk8">See how</a>
 
 ----
 ### Requirements
