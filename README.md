@@ -16,8 +16,8 @@ How to use UI5 Automation Runner - <a href="https://youtu.be/vaorqlDUqk8">See ho
 ----
 ### Requirements
 It requires
-* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/nodejs.png" width="35">  [NodeJS](https://nodejs.org/)
-* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/java.png" width="35">  [Java](https://java.com/en/)
+* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/nodejs.png" width="35">  [NodeJS](https://nodejs.org/) v6.0.0 or higher
+* <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/java.png" width="35">  [Java](https://java.com/en/) version 1.7 or higher
 ---
 ### Download and Installation
 __Install UI5 Automation Designer__
