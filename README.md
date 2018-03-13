@@ -48,7 +48,7 @@ __Install UI5 Automation Runner__
 ### Known Issues
 ---
 ### How to obtain support
-Please ask questions in github issues
+Please ask questions in the project's GitHub issues area
 
 ---
 ### License
