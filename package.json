@@ -4,8 +4,7 @@
   "description": "End-to-end test framework for UI5 applications. It uses UI5 structure and renders simplicity and ease of use for UI5 Automation",
   "main": "index.js",
  "scripts": {
-  "postinstall": "cd protractor && npm install && node bin/webdriver-manager update && cd ../coverage && npm install && cd ../UI5Example && node ../protractor/bin/protractor conf.js",
-   "test" :"cd UI5Example && node ../protractor/bin/protractor conf.js"
+  "postinstall": "cd protractor && npm install && node bin/webdriver-manager update && cd ../coverage && npm install && cd ../UI5Example ,
 },
   "repository": {
     "type": "git",
