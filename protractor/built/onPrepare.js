@@ -1,7 +1,7 @@
 var JSONReporter = require('jasmine-json-test-reporter');
 var SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 
-//var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
+////var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 
 var today = new Date();
