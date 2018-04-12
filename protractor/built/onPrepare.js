@@ -7,6 +7,19 @@ var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 var today = new Date();
 var timeStamp = today.getMonth() + 1 + '-' + today.getDate() + '-' + today.getFullYear() + '-' + today.getHours() + 'h-' + today.getMinutes() + 'm-' +today.getSeconds()+'s';
 
+import failFast from 'protractor-fail-fast';
+ 
+exports.config = {
+  plugins: [
+    failFast.init(),
+  ],
+  
+  // Optional
+  afterLaunch: function() {
+    failFast.clean(); // Removes the fail file once all test runners have completed.
+  },
+}
+
 module.exports=function(){
 	
 		//jasmine2 html reporter
