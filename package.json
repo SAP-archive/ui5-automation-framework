@@ -14,7 +14,7 @@
     "ui5"
   ],
   "author": "Navalur, Asif Iqbal",
-  "license": "ISC",
+  "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/SAP/ui5-automation-framework/issues"
   },
