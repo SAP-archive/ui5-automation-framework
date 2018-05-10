@@ -11,7 +11,7 @@ The UI5 Automation Framework comprises of two components-
 
 How to use UI5 Automation Designer - <a href="https://youtu.be/wcGxnhotwWo">See how</a>
 
-How to use UI5 Automation Runner - <a href="https://youtu.be/ivLiw6B1fdY">See how</a>
+How to use UI5 Automation Runner - <a href="https://youtu.be/bTPd4AST1lM">See how</a>
 
 ----
 ### Requirements
