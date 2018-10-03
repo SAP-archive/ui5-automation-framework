@@ -21,9 +21,9 @@ It requires
 ---
 ### Download and Installation
 __Install UI5 Automation Designer__
-* Go to chrome web store in your chrome browser.
+* Go to chrome web store in your chrome browser
 * Search for UI5 Automation Designer
-* Look for the extension <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/vyper.gif" width="25"> icon in the extension list.
+* Look for the extension <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/vyper.gif" width="25"> icon in the extension list
 * Click on Add to Chrome 
 
 __Install UI5 Automation Runner__
@@ -36,6 +36,7 @@ __Install UI5 Automation Runner__
     ```sh
     $  npm install --save  https://github.com/SAP/ui5-automation-framework
     ```
+    If there
 * Run the sample UI5-Example.
     * Run the below command
     ```sh
