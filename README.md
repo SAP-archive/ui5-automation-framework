@@ -36,9 +36,14 @@ __Install UI5 Automation Runner__
     ```sh
     $  npm install --save  https://github.com/SAP/ui5-automation-framework
     ```
-    If there
+    If the above approach fails then use this
     ```sh
-    $  npm install --save  https://github.com/SAP/ui5-automation-framework
+    git clone https://github.com/SAP/ui5-automation-framework
+    cd folder\ui5-automation-framework\protractor
+    npm install
+    node bin\webdriver-manager update 
+    cd folder\ui5-automation-framework\coverage
+    npm install
     ```
     
 * Run the sample UI5-Example.
