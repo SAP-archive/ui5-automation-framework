@@ -37,6 +37,10 @@ __Install UI5 Automation Runner__
     $  npm install --save  https://github.com/SAP/ui5-automation-framework
     ```
     If there
+    ```sh
+    $  npm install --save  https://github.com/SAP/ui5-automation-framework
+    ```
+    
 * Run the sample UI5-Example.
     * Run the below command
     ```sh
