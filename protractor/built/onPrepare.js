@@ -18,15 +18,20 @@ module.exports=function(){
         // })
       //);
 	jasmine.getEnv().addReporter(new HtmlScreenshotReporter({
-	  dest: 'results',
+        //Added by psilpa on 11th Jan
+	  dest: 'results/html',
 	  inlineImages: true,
 	  showSummary: true,
 	  showConfiguration: true,
-	  reportTitle: 'Test',
-	  filename: 'html/Report.html',
+      reportTitle: 'Test',
+      //Added by psilpa on 11th Jan
+	  filename: 'Report.html',
 	  cleanDestination : true,
-	  //ignoreSkippedSpecs: true,
-	  
+      //ignoreSkippedSpecs: true,
+      //Added by psilpa on 11th Jan
+	  pathBuilder: function(currentSpec, suites) {
+        return '../images/' + (new Date()).getTime() ;
+      },
 	  // Setup the report before any tests start
 	  beforeLaunch: function() {
 		return new Promise(function(resolve){
