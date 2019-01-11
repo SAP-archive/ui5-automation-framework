@@ -5,7 +5,8 @@ var SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 
 var today = new Date();
-var timeStamp = today.getMonth() + 1 + '-' + today.getDate() + '-' + today.getFullYear() + '-' + today.getHours() + 'h-' + today.getMinutes() + 'm-' +today.getSeconds()+'s';
+//Changed by psilpa on 11th Jan 2019
+var timeStamp = '.' + today.getMonth() + 1 + '_' + today.getDate() + '_' + today.getFullYear() + '_' + today.getHours() + '_' + today.getMinutes();
 
 module.exports=function(){
 	
@@ -18,15 +19,20 @@ module.exports=function(){
         // })
       //);
 	jasmine.getEnv().addReporter(new HtmlScreenshotReporter({
-	  dest: 'results',
+        //Added by psilpa on 11th Jan
+	  dest: 'results/html',
 	  inlineImages: true,
 	  showSummary: true,
 	  showConfiguration: true,
-	  reportTitle: 'Test',
-	  filename: 'html/Report.html',
+      reportTitle: 'Test',
+      //Added by psilpa on 11th Jan
+	  filename: 'Report.html',
 	  cleanDestination : true,
-	  //ignoreSkippedSpecs: true,
-	  
+      //ignoreSkippedSpecs: true,
+      //Added by psilpa on 11th Jan
+	  pathBuilder: function() {
+        return '../images/' + (new Date()).getTime() ;
+      },
 	  // Setup the report before any tests start
 	  beforeLaunch: function() {
 		return new Promise(function(resolve){
@@ -49,8 +55,9 @@ module.exports=function(){
 	
 	//json reporter
 	jasmine.getEnv().addReporter(new JSONReporter({
-    file: 'jasmine-test-results.json',
-	dest : 'results/json',
+        //Changed by psilpa on 11th Jan 2019
+    file: 'results/jasmine-test-results' + timeStamp + '.json',
+	//dest : 'results/json',
     beautify: true,
     indentationLevel: 4 // used if beautify === true 
 }));
