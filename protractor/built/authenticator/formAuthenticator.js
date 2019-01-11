@@ -28,9 +28,14 @@ function FormAuthenticator(authconfig,instanceConf){
   //},3000);
   
     // enter user and pass in the respective fields
-  browser.driver.findElement(by.css(userFieldSelector)).sendKeys(user);
-  browser.driver.findElement(by.css(passFieldSelector)).sendKeys(pass);
-  return browser.driver.findElement(by.css(logonButtonSelector)).click();
+    //attempt to login only if on login screen
+    element(by.css(userFieldSelector)).isPresent().then(function(present){
+      if(present){
+      browser.driver.findElement(by.css(userFieldSelector)).sendKeys(user);
+      browser.driver.findElement(by.css(passFieldSelector)).sendKeys(pass);
+      return browser.driver.findElement(by.css(logonButtonSelector)).click();
+       }
+    });
   
   
   
