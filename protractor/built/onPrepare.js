@@ -29,7 +29,7 @@ module.exports=function(){
 	  cleanDestination : true,
       //ignoreSkippedSpecs: true,
       //Added by psilpa on 11th Jan
-	  pathBuilder: function(currentSpec, suites) {
+	  pathBuilder: function() {
         return '../images/' + (new Date()).getTime() ;
       },
 	  // Setup the report before any tests start
