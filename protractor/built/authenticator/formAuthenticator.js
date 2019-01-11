@@ -29,6 +29,7 @@ function FormAuthenticator(authconfig,instanceConf){
   
     // enter user and pass in the respective fields
     //attempt to login only if on login screen
+    //Added by PSilpa on 11/1/2019
     element(by.css(userFieldSelector)).isPresent().then(function(present){
       if(present){
       browser.driver.findElement(by.css(userFieldSelector)).sendKeys(user);
