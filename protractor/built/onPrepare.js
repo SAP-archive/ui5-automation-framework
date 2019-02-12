@@ -52,7 +52,14 @@ module.exports=function(){
 		});
 	  }
 	}));
-	
+    
+    //Added by Silpa on 1th Feb 2019 to support Report Portal integration
+    if(browser.params.reportPortal){
+        const ReportportalAgent = require('agent-js-jasmine');
+        const agent = new ReportportalAgent(browser.params.reportPortal);
+        jasmine.getEnv().addReporter(agent.getJasmineReporter());
+    }
+
 	//json reporter
 	jasmine.getEnv().addReporter(new JSONReporter({
         //Changed by psilpa on 11th Jan 2019
