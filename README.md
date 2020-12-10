@@ -1,4 +1,7 @@
 # UI5 Automation Framework
+
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/ui5-automation-framework)](https://api.reuse.software/info/github.com/SAP/ui5-automation-framework)
+
 <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/vyper.gif" width="48">
 
 End-to-end test framework for UI5 applications. It uses UI5 structure and renders simplicity and ease of use for UI5 Automation.
