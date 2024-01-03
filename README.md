@@ -1,6 +1,9 @@
-# UI5 Automation Framework
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP/ui5-automation-framework)](https://api.reuse.software/info/github.com/SAP/ui5-automation-framework)
+# Important Notice
+This public repository is read-only and no longer maintained.
+
+# UI5 Automation Framework
 
 <img src="https://github.com/SAP/ui5-automation-framework/blob/master/images/vyper.gif" width="48">
 
